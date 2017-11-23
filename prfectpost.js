@@ -2,7 +2,7 @@ const golos = require('steem')
 golos.config.set('websocket','wss://ws.golos.io');
 golos.config.set('address_prefix','GLS');
 golos.config.set('chain_id','782a3039b478c839e4cb0c941ff4eaeb7df40bdd68bd441afd444b9da763de12');
-
+//---переменные
 var key='Сюда вписываем приватный постинг ключ';//приватный постинг ключ
 var author='сюда вписываем аккаунт без собачки';//автор поста (свой аккаунт без собачки)
 var parent_author=''; //автор родитель (пустое значение)
