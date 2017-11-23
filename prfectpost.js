@@ -6,7 +6,7 @@ golos.config.set('chain_id','782a3039b478c839e4cb0c941ff4eaeb7df40bdd68bd441afd4
 var key='Сюда вписываем приватный постинг ключ';//приватный постинг ключ
 var author='сюда вписываем аккаунт без собачки';//автор поста (свой аккаунт без собачки)
 var parent_author=''; //автор родитель (пустое значение)
-var parent_permlink='ru--golos';//Родительский пермлинк (тег)
+var parent_permlink='ru--golos';//родительский пермлинк (тег)
 var dt = Math.round(Date.now()/1000);//дата в миллисекундах
 var permlink='post-'+dt;//пермлинк поста
 var post_body=' ';//тело поста (пробел)
